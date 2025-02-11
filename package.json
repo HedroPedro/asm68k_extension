@@ -1,0 +1,25 @@
+{
+  "name": "asm68k",
+  "displayName": "asm68k",
+  "description": "Motorola 68000 assembler",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "asm68k",
+      "aliases": ["Motorola 68000", "asm68k"],
+      "extensions": [".asm",".68k",".s"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "asm68k",
+      "scopeName": "source.asm68k",
+      "path": "./syntaxes/asm68k.tmLanguage.json"
+    }]
+  }
+}
