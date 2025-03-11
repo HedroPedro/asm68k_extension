@@ -132,8 +132,12 @@
 				"match": "(?i)\\bunlk\\b"
 			},
 			{
+				"name": "entity.name.section",
+				"match": "(?i)(((@|\\.)[A-Za-z0-9_.]+)|([_A-Za-z][A-Za-z0-9._]+)):"
+			},
+			{
 				"name": "entity.name",
-				"match": "(?i)(((@|\\.)[A-Za-z0-9_.]+)|([_A-Za-z][A-Za-z0-9._]+))\\b"
+				"match": "(?i)(((@|\\.)[A-Za-z0-9_.]+)|([_A-Za-z][A-Za-z0-9._]?))"
 			}
 		]
 		},
