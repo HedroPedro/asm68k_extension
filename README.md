@@ -12,6 +12,10 @@ Syntax highlighter for the SNASM68K
 
 ## Release Notes
 
-### 1.0.0
+### 0.1.1
+
+Fix of some regexes
+
+### 0.1.0
 
 Release of asm68k

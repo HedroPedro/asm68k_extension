@@ -2,7 +2,7 @@
   "name": "asm68k",
   "displayName": "SNASM68k",
   "description": "SNASM68K syntax highlighter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "publisher": "HedroPedro",
   "repository": {
     "url": "https://github.com/HedroPedro/asm68k_extension.git"
