@@ -21,47 +21,47 @@
 			},
 			{
 				"name": "meta.preprocessor",
-				"match": "(i?)_(year|month|(week)?day|(hour|minute|second)s)"
+				"match": "(?i)\\b_(year|month|(week)?day|(hour|minute|second)s)\\b"
 			},
 			{
 				"name": "meta.tag",
-				"match": "(i?)(e(qu(s|r)?|ven|nd(m|case|if|r|w)?)|=|set)"
+				"match": "(?i)\\b(e(qu(s|r)?|ven|nd(m|case|if|r|w)?)|=|set)\\b"
 			},
 			{
 				"name": "meta.tag",
-				"match": "(i?)m(acros?|exit)"
+				"match": "(?i)\\bm(acros?|exit)\\b"
 			},
 			{
 				"name": "meta.tag",
-				"match": "(i?)d((cb?|s)(\\.(b|w|l))?|o)"
+				"match": "(?i)\\bd((cb?|s)(\\.(b|w|l))?|o)\\b"
 			},
 			{
 				"name": "meta.tag",
-				"match": "(i?)c(nop|ase)"
+				"match": "(?i)\\bc(nop|ase)\\b"
 			},
 			{
 				"name": "meta.tag",
-				"match": "(i?)i(f|nc(lude|bin)|nstr|nform)"
+				"match": "(?i)\\bi(f|nc(lude|bin)|nstr|nform)\\b"
 			},
 			{
 				"name": "meta.tag",
-				"match": "(i?)o(rg|bj(end)?|pt|ver|ffset)"
+				"match": "(?i)\\bo(rg|bj(end)?|pt|ver|ffset)\\b"
 			},
 			{
 				"name": "meta.tag",
-				"match": "(i?)r(ef|s(((re)?set)|(\\.(b|w|l))?))"
+				"match": "(?i)\\br(ef|s(((re)?set)|(\\.(b|w|l))?))\\b"
 			},
 			{
 				"name": "meta.tag",
-				"match": "(i?)p((ush|op)(p|s))"
+				"match": "(?i)\\bp((ush|op)(p|s))\\b"
 			},
 			{
 				"name": "meta.tag",
-				"match": "(i?)s((ubstr|tr(len|cmp)|hift|ize|ect))"
+				"match": "(?i)\\bs((ubstr|tr(len|cmp)|hift|ize|ect))\\b"
 			},
 			{
 				"name": "meta.tag",
-				"match": "(i?)l(ocal|ist)|until|narg|while|rept|nolist|group|bss|word|file"
+				"match": "(?i)\\b(l(ocal|ist)|until|n(olist|arg)|while|rept|group|bss|word|file)\\b"
 			},
 			{
 				"name": "keyword.operator",
@@ -69,71 +69,71 @@
 			},
 			{
 				"name": "variable.language",
-				"match": "(?i)(d|a)[0-7]|pc|sp|usp|ccr"
+				"match": "(?i)\\b(d|a)[0-7]|pc|sp|usp|ccr\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)a(bcd(\\.b)?|nd(i)?(\\.(b|w|l))?|dd((i|q|x)(\\.(b|w|l))?|(a)(\\.(w|l))?)?|(sl|sr)(\\.(b|w|l))?)$"
+				"match": "(?i)\\b(a(bcd(\\.b)?|nd(i)?(\\.(b|w|l))?|dd((i|q|x)(\\.(b|w|l))?|(a)(\\.(w|l))?)?|(sl|sr)(\\.(b|w|l))?))\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)b(((h(i|s)|l(s|o|t|e)|cc|ne|eq|v(c|s)|pl|mi|g(e|t)|ra|sr))(\\.(b|w|s|l))?|(c(hg|lr)|set|tst)(\\.(b|l))?)$"
+				"match": "(?i)\\b(b(((h(i|s)|l(s|o|t|e)|cc|ne|eq|v(c|s)|pl|mi|g(e|t)|ra|sr))(\\.(b|w|s|l))?|(c(hg|lr)|set|tst)(\\.(b|l))?))\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)c(hk(\\.w)?|mp((i|m)?(\\.(b|w|l))?|a(\\.(w|l))?))$"
+				"match": "(?i)\\b(c(hk(\\.w)?|mp((i|m)?(\\.(b|w|l))?|a(\\.(w|l))?)))\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)d(b(h(i|s)|l(s|o|t|e)|c(c|s)|ne|eq|v(c|s)|pl|mi|g(e|t)|ra)(\\.(b|w|s|l))?|iv(s|u)(\\.w)?)$"
+				"match": "(?i)\\b(d(b(h(i|s)|l(s|o|t|e)|c(c|s)|ne|eq|v(c|s)|pl|mi|g(e|t)|ra)(\\.(b|w|s|l))?|iv(s|u)(\\.w)?))\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)e(ori?(\\.(b|w|l))?|x(g(\\.l)?|t(\\.(w|l))?))$"
+				"match": "(?i)\\b(e(ori?(\\.(b|w|l))?|x(g(\\.l)?|t(\\.(w|l))?)))\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)illegal$"
+				"match": "(?i)\\billegal\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)j(mp|sr)$"
+				"match": "(?i)\\b(j(mp|sr))\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)l(ea(\\.l)?|(s(l|r))(\\.(b|w|l))?)$"
+				"match": "(?i)\\b(l(ea(\\.l)?|(s(l|r))(\\.(b|w|l))?))\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)m(ove((\\.(b|w|l))|(a|m|p)(\\.(w|l))?|q(\\.l)?)?|ul(u|s)(\\.w)?)$"
+				"match": "(?i)\\b(m(ove((\\.(b|w|l))|(a|m|p)(\\.(w|l))?|q(\\.l)?)?|ul(u|s)(\\.w)?))\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)n(bcd(\\.b)?|egx?(\\.(b|w|l))?|o(p|t(\\.(b|w|l))?))$"
+				"match": "(?i)\\b(n(bcd(\\.b)?|egx?(\\.(b|w|l))?|o(p|t(\\.(b|w|l))?)))\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)pea(\\.l)?$"
+				"match": "(?i)\\b(pea(\\.l)?)\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)r(eset|ox?(l|r)(\\.(b|w|l))?|t(e|r|s))$"
+				"match": "(?i)\\b(r(eset|ox?(l|r)(\\.(b|w|l))?|t(e|r|s)))\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)s(bcd(\\.b)?|(f|t|h(i|s)|l(s|o|t|e)|c(c|s)|ne|eq|v(c|s)|pl|mi|g(e|t))(\\.b)?|top|ub((i|q|x)?(\\.(b|w|l))?|(a)(\\.(w|l)?))|wap(\\.w)?)$"
+				"match": "(?i)\\b(s(bcd(\\.b)?|(f|t|h(i|s)|l(s|o|t|e)|c(c|s)|ne|eq|v(c|s)|pl|mi|g(e|t))(\\.b)?|top|ub((i|q|x)?(\\.(b|w|l))?|(a)(\\.(w|l)?))|wap(\\.w)?))\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)t(as(\\.b)?|rapv?|st(\\.(b|w|l))?)$"
+				"match": "(?i)\\b(t(as(\\.b)?|rapv?|st(\\.(b|w|l))?))\\b"
 			},
 			{
 				"name": "keyword",
-				"match": "(?i)unlk$"
+				"match": "(?i)\\bunlk\\b"
 			},
 			{
 				"name": "entity.name",
-				"match": "([a-zA-Z_]|((\\.|@)[A-Z-a-z0-9_]))[A-Z-a-z0-9_.]*:?"
+				"match": "(?i)(((@|\\.)[A-Za-z0-9_.]+)|([_A-Za-z][A-Za-z0-9._]+))\\b"
 			}
 		]
 		},
