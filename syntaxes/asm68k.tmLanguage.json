@@ -11,7 +11,12 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
+			"patterns": [
+			{
+				"name": "comment",
+				"match": ";.*"
+			},	
+			{
 				"name": "constant.numeric",
 				"match": "#((\\$([A-Fa-f0-9]+)|\\d+|(%[01]+)))"
 			},
