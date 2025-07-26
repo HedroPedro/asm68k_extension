@@ -49,11 +49,11 @@
 			},
 			{
 				"name": "meta.tag",
-				"match": "(?i)\\br(ef|s(((re)?set)|(\\.(b|w|l))?))\\b"
+				"match": "(?i)\\b(r(ef|s(((re)?set)|(\\.(b|w|l))?)))\\b"
 			},
 			{
 				"name": "meta.tag",
-				"match": "(?i)\\bp((ush|op)(p|s))\\b"
+				"match": "(?i)\\b(p((ush|op)(p|s)))\\b"
 			},
 			{
 				"name": "meta.tag",
@@ -69,7 +69,7 @@
 			},
 			{
 				"name": "variable.language",
-				"match": "(?i)\\b(d|a)[0-7]|pc|sp|usp|ccr\\b"
+				"match": "(?i)\\b((d|a)[0-7]|pc|sp|usp|ccr)\\b"
 			},
 			{
 				"name": "keyword",
