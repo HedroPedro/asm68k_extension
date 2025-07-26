@@ -26,7 +26,7 @@
 			},
 			{
 				"name": "meta.preprocessor",
-				"match": "(?i)\\b_(year|month|(week)?day|(hour|minute|second)s)\\b"
+				"match": "(?i)\\b(year|month|(week)?day|(hour|minute|second)s)\\b"
 			},
 			{
 				"name": "meta.tag",
