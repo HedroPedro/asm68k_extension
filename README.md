@@ -1,10 +1,10 @@
 # asm68k README
 
-Syntax highlighter for the SNASM68K
+Syntax highlighter for the asm68k
 
 ## Features
 
-- Syntax highlithing for macros and mnemonics
+- Syntax highlithing for macros and mnemonics for the asm68k (aka SNASM68K) executable
 
 ## Known Issues
 
