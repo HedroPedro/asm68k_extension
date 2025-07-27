@@ -12,6 +12,10 @@ Syntax highlighter for the asm68k
 
 ## Release Notes
 
+### 0.1.5
+
+Added or and ori mnemonic
+
 ### 0.1.1
 
 Fix of some regexes

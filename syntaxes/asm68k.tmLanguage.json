@@ -122,6 +122,10 @@
 			},
 			{
 				"name": "keyword",
+				"match": "(?i)\\b(o(ri?(\\.(b|w|l))?))\\b"
+			},
+			{
+				"name": "keyword",
 				"match": "(?i)\\b(r(eset|ox?(l|r)(\\.(b|w|l))?|t(e|r|s)))\\b"
 			},
 			{
